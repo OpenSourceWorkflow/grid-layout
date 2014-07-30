@@ -1,0 +1,19 @@
+{
+  "name": "grid-layout",
+  "version": "1.0.0",
+  "homepage": "https://github.com/markusfalk/grid-layout",
+  "authors": [
+    "Markus Falk <mail@markus-falk.com>"
+  ],
+  "description": "scss mixin for creating grid layouts",
+  "main": "_grid-layout.scss",
+  "keywords": [
+    "grid",
+    "mixin",
+    "scss"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "*.html"
+  ]
+}

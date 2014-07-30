@@ -80,5 +80,5 @@ Installation
 ------------
 
 ```shell
-bower install markusfalk/grid-layout
+bower install grid-layout
 ```

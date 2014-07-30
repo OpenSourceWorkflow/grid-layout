@@ -1,5 +1,5 @@
-// $sitewidth and $margin in px
-@mixin mf-layout ($columns: 24, $sitewidth: 960, $margin: 20) {
+@mixin grid-layout ($columns: 24, $sitewidth: 960, $margin: 20) {
+
   $col-margin: percentage($margin/$sitewidth);
 
   .cols#{$columns} {

@@ -53,8 +53,8 @@ HTML
 </div> <!-- cols -->
 ```
 
-Usage Examples
---------------
+SCSS
+----
 
 Default:
 ```scss

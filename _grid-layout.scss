@@ -2,6 +2,11 @@
 
   $col-margin: percentage($margin/$sitewidth);
 
+  // remove unit for css linting
+  @if $margin == 0 {
+    $col-margin: 0;
+  }
+
   .cols#{$columns} {
     margin: 0;
 

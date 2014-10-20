@@ -1,4 +1,4 @@
-@mixin grid-layout ($columns: 24, $sitewidth: 960, $margin: 20) {
+@mixin grid-layout ($columns: 24, $sitewidth: 960px, $margin: 20px) {
 
   $col-margin: percentage($margin/$sitewidth);
 

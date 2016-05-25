@@ -46,7 +46,7 @@
     $width: (100% / $columns) * $i;
     $margin: ($col-margin / $columns) * $i;
 
-    > .c#{$i}of#{$columns} {
+    .cols#{$columns} > .c#{$i}of#{$columns} {
       width: $width + $margin - $col-margin;
     }
 

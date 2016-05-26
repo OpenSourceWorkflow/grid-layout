@@ -18,6 +18,7 @@
       visibility: hidden;
     }
 
+
     > .col {
       float: left;
       margin-left: $col-margin;
@@ -25,6 +26,16 @@
 
       &:first-child {
         margin-left: 0;
+      }
+    }
+
+    &.right-to-left > .col {
+      float: right;
+      margin-left: 0;
+      margin-right: $col-margin;
+
+      &:first-child {
+        margin-right: 0;
       }
     }
   }
@@ -35,16 +46,26 @@
     $width: (100% / $columns) * $i;
     $margin: ($col-margin / $columns) * $i;
 
-    .c#{$i}of#{$columns} {
+    .cols#{$columns} > .c#{$i}of#{$columns} {
       width: $width + $margin - $col-margin;
     }
 
-    .cols#{$columns} .col.offset#{$i}of#{$columns} {
+    .cols#{$columns} > .col.offset#{$i}of#{$columns} {
       margin-left: $width + $margin + $col-margin;
     }
 
-    .cols#{$columns} .col.offset#{$i}of#{$columns}:first-child {
+    .cols#{$columns} > .col.offset#{$i}of#{$columns}:first-child {
       margin-left: $width + $margin;
+    }
+
+    .cols#{$columns}.right-to-left > .col.offset#{$i}of#{$columns} {
+      margin-left: 0;
+      margin-right: $width + $margin + $col-margin;
+    }
+
+    .cols#{$columns}.right-to-left > .col.offset#{$i}of#{$columns}:first-child {
+      margin-left: 0;
+      margin-right: $width + $margin;
     }
 
     $i: $i - 1;

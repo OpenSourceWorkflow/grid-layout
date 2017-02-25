@@ -1,0 +1,23 @@
+{
+  "name": "scss-grid-layout",
+  "version": "1.0.0",
+  "description": "scss mixin for creating grid layouts",
+  "main": "_grid-layout.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenSourceWorkflow/grid-layout.git"
+  },
+  "keywords": [
+    "grid",
+    "scss"
+  ],
+  "author": "Markus Falk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenSourceWorkflow/grid-layout/issues"
+  },
+  "homepage": "https://github.com/OpenSourceWorkflow/grid-layout#readme"
+}

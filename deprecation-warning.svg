@@ -1,0 +1,11 @@
+<svg width="640" height="80" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Border</title>
+  <rect fill-opacity="0" id="svg_1" height="80" width="640" y="0" x="0" stroke-width="5" fill="#000000" stroke="#ff0000"/>
+ </g>
+ <g>
+  <title>Text</title>
+  <text font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_2" y="47.5" x="315.98438" stroke-width="0" stroke="#ff0000" fill="#ff0000">Deprecation Notice</text>
+ </g>
+</svg>

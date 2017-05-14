@@ -2,7 +2,7 @@
 
 SCSS-mixin for creating grid layouts.
 
-![Project is deprecated!](https://cdn.rawgit.com/OpenSourceWorkflow/generator-kickstart/master/deprecation-warning.svg)
+![Project is deprecated!](https://cdn.rawgit.com/OpenSourceWorkflow/generator-kickstart/master/deprecated.svg)
 
 This project has been deprecated in favor of the new [Bootstrap grid system](https://v4-alpha.getbootstrap.com/layout/grid/).
 
